@@ -35,7 +35,7 @@ x_train <- cbind(x_train, j$V2)
 5. Step 5 - row bind (rbind) the x_test and y_test data frames together
    + The number of columns and column names need to match
 6. Step 6 - apply column names from the features
-   + crate a function to remove '(', ')', '-', ','
+   + crate a function lsto remove '(', ')', '-', ','
    + set to lower case
    + create a list / vector of only the columns (measures) that we want. (std and mean)
    + add the subject and activity to the list of columns
@@ -44,5 +44,3 @@ x_train <- cbind(x_train, j$V2)
    + on subject and activity by using the reshaper2.melt () function
    + cast the data frame to get the mean() for each variable.
 9. Step 9 - Export the data to a tab delimited file using write.table()
-
-9. Step 9 - 
