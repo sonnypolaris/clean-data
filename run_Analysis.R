@@ -1,6 +1,7 @@
 # Cleaning data project
 # package dependencies: 
 
+
 # step 1 - Download & unzip the file
 destZip <- "smartphone.zip"
 zipUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
